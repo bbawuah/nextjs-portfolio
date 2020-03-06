@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useTrail, animated } from "react-spring";
 
-const name = "Brian Bawuah - Creative Developer";
+const name = "Brian Bawuah - Javascript Developer";
 const arrFromName = name.split(" ");
 const config = { mass: 10, tension: 600, friction: 200 };
 
