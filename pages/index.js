@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <Layout>
       <h1>
-        <Trail str="Hi there! thanks for stopping by."/>
+        <Trail str="Hi there! Thanks for stopping by."/>
       </h1>
       <div className="about-text">
         <img src="/static/portrait-brian-bawuah.jpg"></img>
