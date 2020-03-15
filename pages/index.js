@@ -26,7 +26,7 @@ function HomePage() {
       <style jsx>
         {`
           img {
-            max-width: 40%;
+            max-width: 50%;
             justify-self: center;
           }
           .about-text {
@@ -53,6 +53,12 @@ function HomePage() {
             overflow: hidden;
           }
           
+
+          @media only screen and (max-width: 395px){
+            img{
+              max-width: 100%;
+            }
+          }
         `}
       </style>
     </Layout>
