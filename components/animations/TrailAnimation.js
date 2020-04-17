@@ -4,7 +4,7 @@ import { useTrail, animated } from "react-spring";
 
 export default function Trail({ str }) {
   const title = str.split(" ");
-  const config = { mass: 10, tension: 600, friction: 200 };
+  const config = { mass: 10, tension: 1100, friction: 100 };
 
   const trail = useTrail(title.length, {
     config,
