@@ -1,12 +1,16 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import { Fragment } from "react";
+import { Particles } from "react-particles-js";
+
 export default function Layout(props) {
   return (
     <Fragment>
-      <Header />
-      <main className="content-wrapper">{props.children}</main>
-      <Footer />
+      
+        <Header />
+        <main className="content-wrapper">{props.children}</main>
+        <Footer />
+     
 
       <style jsx global>{`
       *, *::before, *::after{
@@ -16,6 +20,7 @@ export default function Layout(props) {
       .content-wrapper{
         height: 100%;
         text-align: center;
+        margin-bottom: 2rem;
       }
 
       body{

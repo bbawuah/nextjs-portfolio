@@ -1,15 +1,13 @@
+import "../styles/styles.scss";
 import Link from "next/link";
 
 export default function Menu() {
-  // const [props, set, stop] = useSpring(() => ({opacity: 1}))
-  // set({opacity: 1});
-  // stop();
 
   return (
-    <ul>
+    <ul className="menu">
       <li>
         <Link href="/">
-          <a>Home</a>
+          <a className="example">Home</a>
         </Link>
       </li>
 

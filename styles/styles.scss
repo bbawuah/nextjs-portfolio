@@ -1,0 +1,92 @@
+$font-size: 42px;
+
+@font-face {
+  font-family: ChloeRegular;
+  src: url("/static/fonts/ChloeRegular.woff");
+  src: url("/static/fonts/ChloeRegular.otf");
+  src: url("/static/fonts/ChloeRegular.ttf");
+  src: url("/static/fonts/ChloeRegular2.woff2");
+}
+
+a,
+h1,
+ul,
+small {
+  font-family: ChloeRegular;
+  font-weight: lighter;
+}
+
+a {
+  border-radius: 3px;
+}
+
+.background {
+  background: #093028; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #237a57,
+    #093028
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #237a57,
+    #093028
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img {
+  width: 30rem;
+  place-self: center;
+  margin-right: 1rem;
+  border-radius: 3px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-text {
+  color: #999;
+  text-align: left;
+  place-items: center;
+  max-width: 50rem;
+  margin-left: 1rem;
+  // padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+
+  h1 {
+    align-self: flex-start;
+    font-size: 5rem;
+    letter-spacing: 0.5px;
+    line-height: 4.5rem;
+    margin: 1.5rem 0;
+  }
+}
+
+@media only screen and (max-width: 1170px) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      margin: 3.5rem 0 0 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .about-text {
+    padding: 0rem;
+    margin-left: 0;
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+}

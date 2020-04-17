@@ -14,12 +14,14 @@ export default function Header() {
             padding: 30px;
             justify-content: space-between;
             align-items: center;
+            position: relative;
+            z-index: 1;
           } 
 
           @media(max-width: 735px){
             header {
               display: block;
-              text-align: center;
+              text-align: left;
             }
           }
           `}

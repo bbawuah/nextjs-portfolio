@@ -91,8 +91,8 @@ export default function Footer() {
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          margin-top: 1em;
-          padding: 80px 30px;
+          position: relative;
+          z-index: 1;
         }
 
         small {

@@ -11,7 +11,7 @@ export default function Logo() {
     opacity: 1,
     x: 20,
     height: 80,
-    from: { opacity: 0, x: 20, height: 0 }
+    from: { opacity: 0, x: 20, height: 0 },
   });
   return (
     <Link href="/">
@@ -21,7 +21,7 @@ export default function Logo() {
             key={arrFromName[index]}
             style={{
               ...rest,
-              transform: x.interpolate(x => `translate3d(0,${x}px,0)`)
+              transform: x.interpolate((x) => `translate3d(0,${x}px,0)`),
             }}
           >
             {`${arrFromName[index]} `}
@@ -31,7 +31,6 @@ export default function Logo() {
           .logo {
             text-decoration: none;
             color: #4a5568;
-            font-weight: bolder;
             font-size: 1.5em;
           }
         `}</style>

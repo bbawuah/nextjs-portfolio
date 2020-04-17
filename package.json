@@ -14,12 +14,18 @@
   "license": "ISC",
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "next": "^9.2.1",
+    "next-fonts": "^1.0.3",
+    "node-sass": "^4.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-hook-form": "^4.9.3",
-    "react-spring": "^8.0.27"
+    "react-particles-js": "^3.0.3",
+    "react-spring": "^8.0.27",
+    "styled-components": "^5.1.0"
   }
 }
