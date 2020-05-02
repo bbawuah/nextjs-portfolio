@@ -1,7 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import { Fragment } from "react";
-import { Particles } from "react-particles-js";
 
 export default function Layout(props) {
   return (

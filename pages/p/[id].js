@@ -10,7 +10,8 @@ const content = {
   'weather-app':
     "This weather application is a project that I made during the Node.JS course of Andrew Mead. The most valuable knowledge I gained during this teaching was about, web API’s, how to fetch data, and some other digital development terms. The application gets its data from the Mapbox API and the Geocode location API. In the near future, I am planning to add more features and eventually turn it into a mobile application.",
   'bible-app':
-    "This web application was developed as a fun side project. With this web application you can read chapters and/or verses from the American Standard Version of the Bible. The data used for this app is derived from the Bible.API. I have decided to further explore the possibilities of adding additional features on this application and redeveloping the application into a mobile version."
+    "This web application was developed as a fun side project. With this web application you can read chapters and/or verses from the American Standard Version of the Bible. The data used for this app is derived from the Bible.API. I have decided to further explore the possibilities of adding additional features on this application and redeveloping the application into a mobile version.",
+    'hope-foundation': 'H.O.P.E. foundation is a foundation that works for dialysis patients mainly in Ghana. the founder Enock Osei, went through difficult times as an patient and often experienced feelings of loneliness. He feels prompted to help those who are going to or are going through a similar situation. I built this website in Next js. Just to try new web frameworks. It is very easy to scale web applications with next and it is also server side rendered. This means that I can write the application with React on the server and my JavaScript code gets converted to HTML code on the server before it is send to the front end. This is perfect for SEO!'
 };
 
 export default function Project({ name }) {
@@ -21,6 +22,7 @@ export default function Project({ name }) {
     'chat-app': 'https://github.com/bbawuah/chat-app',
     'flight-app': 'https://github.com/bbawuah/flight-app',
     'weather-app': 'https://github.com/bbawuah/Node-3-weather-website',
+    'hope-foundation': 'https://github.com/bbawuah/hope-foundation-react'
   }
 
   const projectUrls = {
@@ -28,6 +30,7 @@ export default function Project({ name }) {
     'chat-app': 'https://bawuah-chatapp.herokuapp.com/',
     'flight-app': 'https://bawuah-flightspy.herokuapp.com/',
     'weather-app': 'https://bawuah-weather-application.herokuapp.com/',
+    'hope-foundation': 'https://hope-foundation.faith'
   }
 
   return (
@@ -44,34 +47,33 @@ export default function Project({ name }) {
       <a href={gitUrls[name]} target="_blank">View Code</a>
       <a href={projectUrls[name]} target="_blank">View Project</a>
       <style jsx>{`
-        p {
-          color: #777;
-          text-align: cente;
-          max-width: 800px;
-          margin: 0 auto 100px;
-          padding: 20px;
-        }
+          p {
+            color: #777;
+            text-align: cente;
+            max-width: 800px;
+            margin: 0 auto 100px;
+            padding: 20px;
+          }
 
-        a {
-          text-decoration: none;
-          width: max-content;
-          justify-self: center;
-          background: #777;
-          padding: 1vmax 2vmax;
-          color: #f7fafc;
-          font-size: 1.2em;
-          font-weight: 600;
-          border: none;
-          cursor: pointer;
-        }
+          a {
+            text-decoration: none;
+            justify-self: center;
+            background: #777;
+            padding: 1vmax 2vmax;
+            color: #f7fafc;
+            font-size: 1.2em;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+          }
 
-        a:first-of-type {
-          margin-right: 0.5em;
-        }
+          a:first-of-type {
+            margin-right: 0.5em;
+          }
 
-        a:last-of-type {
-          margin-left: 0.5em;
-        }
+          a:last-of-type {
+            margin-left: 0.5em;
+          }
       `}</style>
     </Layout>
   );

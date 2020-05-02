@@ -1,9 +1,12 @@
+import { Fragment } from "react";
 
 
 export default function ProjectText(props) {
   return (
-    <div className="item">
+    <Fragment>
+
       {props.children}
-    </div>
+    </Fragment>
+   
   );
 }
