@@ -1,4 +1,5 @@
 $font-size: 42px;
+$text-color: #718096;
 
 @font-face {
   font-family: ChloeRegular;
@@ -20,19 +21,19 @@ a {
   border-radius: 3px;
 }
 
-.background {
-  background: #093028; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #237a57,
-    #093028
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #237a57,
-    #093028
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+// .background {
+//   background: #093028; /* fallback for old browsers */
+//   background: -webkit-linear-gradient(
+//     to right,
+//     #237a57,
+//     #093028
+//   ); /* Chrome 10-25, Safari 5.1-6 */
+//   background: linear-gradient(
+//     to right,
+//     #237a57,
+//     #093028
+//   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+// }
 
 img {
   width: 30rem;
@@ -44,7 +45,7 @@ img {
 }
 
 .about-text {
-  color: #999;
+  color: $text-color;
   text-align: left;
   place-items: center;
   max-width: 50rem;

@@ -97,6 +97,7 @@ export default function Footer() {
 
         small {
           text-align: center;
+          color: #718096;
         }
         ul {
           display: flex;
@@ -116,7 +117,7 @@ export default function Footer() {
 
         svg {
           width: 2em;
-          color: #777;
+          color: #718096;
         }
 
         .copyright {

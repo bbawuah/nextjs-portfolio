@@ -54,11 +54,15 @@ export default function Project({ name }) {
             margin: 0 auto 100px;
             padding: 20px;
           }
-
+          
+          h1{
+            color: #718096;
+          }
+          
           a {
             text-decoration: none;
             justify-self: center;
-            background: #777;
+            background: #4A5568;
             padding: 1vmax 2vmax;
             color: #f7fafc;
             font-size: 1.2em;

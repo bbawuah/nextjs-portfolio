@@ -30,7 +30,7 @@ export default function Logo() {
         <style jsx>{`
           .logo {
             text-decoration: none;
-            color: #4a5568;
+            color: #718096;
             font-size: 1.5em;
           }
         `}</style>

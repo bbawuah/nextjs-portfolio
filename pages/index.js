@@ -2,7 +2,6 @@ import "../styles/styles.scss";
 import Layout from "../components/Layout";
 import Link from "next/link";
 import Trail from "../components/animations/TrailAnimation";
-import { Particles } from "react-particles-js";
 
 function HomePage() {
   return (
@@ -30,24 +29,7 @@ function HomePage() {
         </div>
       </div>
 
-      <Particles
-        style={{
-          position: "fixed",
-          top: "0",
-          left: "0",
-        }}
-        params={{
-          particles: {
-            number: {
-              value: 200,
-              density: {
-                enable: true,
-                value_area: 1000,
-              },
-            },
-          },
-        }}
-      />
+
       <style jsx>
         {`
           .home-container {
@@ -58,9 +40,9 @@ function HomePage() {
 
           .work-btn {
             position: relative;
-            background: #777;
+            background: #4A5568;
             padding: 1vmax 2vmax;
-            color: #f7fafc;
+            color: #EDF2F7;
             align-self: flex-end;
             text-decoration: none;
             font-weight: 600;

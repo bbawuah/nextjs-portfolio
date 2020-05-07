@@ -27,7 +27,7 @@ export default function Menu() {
         }
         ul li a {
           font-size: 22px;
-          color: #111;
+          color: #718096;
           font-weight: 300;
           padding: 5px 2px;
           margin: 0 10px;

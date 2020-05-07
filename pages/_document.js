@@ -44,6 +44,8 @@ export default class MyDocument extends Document {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0"
           />
+          <meta name="description" content="Brian Bawuah is a 23 year young student, who found his passion for developing and designing applications in the beautiful and complex world of the inter-webs. "/>
+          <meta name="keywords" content="Brian Bawuah, JavaScript Developer"/>
         </Head>
         <body>
           <GlobalStyle />

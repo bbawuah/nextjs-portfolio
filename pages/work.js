@@ -26,7 +26,7 @@ function Work() {
           }
 
           li {
-            background: #777;
+            background: #4A5568;
             padding: 1vmax 2vmax;
             border-radius: 3px;
             margin: 1rem 0;
@@ -70,6 +70,10 @@ function Work() {
         .projects {
           max-width: 1000px;
           margin: 0 auto;
+        }
+
+        h1{
+          color: #718096;
         }
 
         ul {
